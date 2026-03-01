@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LiveCall Garage | Sponsored by SIDRA CHAIN</title>
+<style>
+* {margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+body{line-height:1.6;color:#333;background:#f4f4f4;overflow-x:hidden;}
+a{text-decoration:none;color:inherit;}
+img{max-width:100%;display:block;}
+header{background:#1e1e2f;color:#fff;padding:40px 0;text-align:center;position:relative;overflow:hidden;}
+header h1{font-size:2.5em;margin-bottom:10px;}
+header p{font-size:1.2em;color:#ffdd00;margin-bottom:15px;font-weight:bold;}
+nav{display:flex;justify-content:center;gap:20px;margin-top:20px;}
+nav a{color:#fff;font-weight:bold;padding:8px 15px;transition:0.3s;}
+nav a:hover{background:#ffdd00;color:#000;border-radius:5px;}
+
+/* Floating SIDRA coins */
+.coin{
+  position:absolute;
+  width:60px;
+  animation:floatSpin ease-in-out infinite;
+  opacity:0.9;
+  filter:drop-shadow(0 0 8px gold);
+}
+.coin:nth-child(1){left:5%; animation-duration:5s; animation-delay:0s;}
+.coin:nth-child(2){left:15%; animation-duration:6s; animation-delay:1s;}
+.coin:nth-child(3){left:25%; animation-duration:4s; animation-delay:2s;}
+.coin:nth-child(4){left:35%; animation-duration:7s; animation-delay:0.5s;}
+.coin:nth-child(5){left:45%; animation-duration:5s; animation-delay:1.5s;}
+.coin:nth-child(6){left:55%; animation-duration:6s; animation-delay:0.2s;}
+.coin:nth-child(7){left:65%; animation-duration:5s; animation-delay:0.8s;}
+.coin:nth-child(8){left:75%; animation-duration:7s; animation-delay:1.2s;}
+.coin:nth-child(9){left:85%; animation-duration:6s; animation-delay:0.3s;}
+.coin:nth-child(10){left:95%; animation-duration:5s; animation-delay:1s;}
+
+@keyframes floatSpin{
+0%{transform:translateY(0) rotate(0deg) scale(1);}
+25%{transform:translateY(-25px) rotate(90deg) scale(1.1);}
+50%{transform:translateY(0) rotate(180deg) scale(1);}
+75%{transform:translateY(-25px) rotate(270deg) scale(1.1);}
+100%{transform:translateY(0) rotate(360deg) scale(1);}
+}
+
+/* Sections */
+section{padding:80px 20px;max-width:1200px;margin:auto;}
+section h2{text-align:center;margin-bottom:50px;font-size:2em;color:#1e1e2f;position:relative;}
+#about p{max-width:800px;margin:0 auto;text-align:center;font-size:1.1em;line-height:1.8;}
+.services{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;}
+.service-card{background:#fff;padding:25px;border-radius:15px;box-shadow:0 4px 12px rgba(0,0,0,0.15);width:280px;text-align:center;transition:transform 0.3s;}
+.service-card h3{margin-bottom:15px;color:#1e1e2f;}
+.service-card p{font-size:1em;}
+.service-card:hover{transform:translateY(-10px);}
+.sponsors{display:flex;justify-content:center;align-items:center;gap:40px;flex-wrap:wrap;}
+.sponsors img{width:160px;transition:transform 0.3s;}
+.sponsors img:hover{transform:scale(1.1);}
+form{max-width:500px;margin:auto;display:flex;flex-direction:column;gap:15px;}
+input,textarea{padding:12px;border-radius:8px;border:1px solid #ccc;font-size:1em;}
+button{padding:12px;border:none;background:#1e1e2f;color:#fff;font-size:1.1em;border-radius:8px;cursor:pointer;transition:0.3s;}
+button:hover{background:#ffdd00;color:#000;}
+footer{background:#1e1e2f;color:#fff;text-align:center;padding:20px;}
+.live-call{position:fixed;bottom:25px;right:25px;background:#ffdd00;color:#000;padding:15px 20px;border-radius:50px;font-weight:bold;box-shadow:0 4px 12px rgba(0,0,0,0.3);transition:0.3s;cursor:pointer;text-align:center;}
+.live-call:hover{background:#1e1e2f;color:#ffdd00;}
+</style>
+</head>
+<body>
+<header>
+<h1>LiveCall Garage</h1>
+<p>Sponsored by <strong style="color:#ffdd00;">SIDRA CHAIN</strong></p>
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#sponsors">Sponsors</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<!-- Multiple floating coins -->
+<img src="https://i.postimg.cc/3x9VcNj1/Screenshot-20250629-094011-(1).jpg" class="coin" alt="SIDRA Coin">
+<img src="https://i.postimg.cc/3x9VcNj1/Screenshot-20250629-094011-(1).jpg" class="coin" alt="SIDRA Coin">
+<img src="https://i.postimg.cc/3x9VcNj1/Screenshot-20250629-094011-(1).jpg" class="coin" alt="SIDRA Coin">
+<img src="https://i.postimg.cc/3x9VcNj1/Screenshot-20250629-094011-(1).jpg" class="coin" alt="SIDRA Coin">
+<img src="https://i.postimg.cc/3x9VcNj1/Screenshot-20250629-094011-(1).jpg" class="coin" alt="SIDRA Coin">
+<img src="https://i.postimg.cc/3x9VcNj1/Screenshot-20250629-094011-(1).jpg" class="coin" alt="SIDRA Coin">
+<img src="https://i.postimg.cc/3x9VcNj1/Screenshot-20250629-094011-(1).jpg" class="coin" alt="SIDRA Coin">
+<img src="https://i.postimg.cc/3x9VcNj1/Screenshot-20250629-094011-(1).jpg" class="coin" alt="SIDRA Coin">
+<img src="https://i.postimg.cc/3x9VcNj1/Screenshot-20250629-094011-(1).jpg" class="coin" alt="SIDRA Coin">
+<img src="https://i.postimg.cc/3x9VcNj1/Screenshot-20250629-094011-(1).jpg" class="coin" alt="SIDRA Coin">
+
+</header>
+
+<section id="about">
+<h2>About LiveCall Garage</h2>
+<p>LiveCall Garage is your trusted automotive repair and maintenance partner in Kenya. From engine repairs to panel beating, we deliver fast, reliable, and high-quality services for all vehicles. Proudly sponsored by SIDRA CHAIN, we combine traditional expertise with innovative solutions.</p>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+<div class="services">
+<div class="service-card">
+<h3>Engine Repair</h3>
+<p>Comprehensive engine diagnostics and repair using modern tools and skilled technicians.</p>
+</div>
+<div class="service-card">
+<h3>Panel Beating</h3>
+<p>Expert bodywork restoration to make your vehicle look brand new.</p>
+</div>
+<div class="service-card">
+<h3>Vehicle Maintenance</h3>
+<p>Regular servicing to ensure your vehicle runs smoothly and safely.</p>
+</div>
+<div class="service-card">
+<h3>Custom Modifications</h3>
+<p>Upgrade your vehicle with performance or aesthetic customizations.</p>
+</div>
+</div>
+</section>
+
+<section id="sponsors">
+<h2>Our Sponsors</h2>
+<div class="sponsors">
+<img src="https://i.postimg.cc/3x9VcNj1/Screenshot-20250629-094011-(1).jpg" alt="SIDRA CHAIN Logo">
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p style="text-align:center;margin-bottom:20px;">Call or WhatsApp: <a href="https://wa.me/254758560246" target="_blank">+254758560246</a> | Email: <a href="mailto:omwandhopeter89@gmail.com">omwandhopeter89@gmail.com</a></p>
+<form>
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Email Address" required>
+<textarea rows="5" placeholder="Message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+</section>
+
+<a href="https://wa.me/254758560246" class="live-call" target="_blank">📞 WhatsApp / Call</a>
+<footer>
+<p>&copy; 2026 LiveCall Garage. Sponsored by SIDRA CHAIN. All rights reserved.</p>
+</footer>
+</body>
+</html>
